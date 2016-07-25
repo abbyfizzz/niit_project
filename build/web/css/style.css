@@ -1,0 +1,71 @@
+@font-face{
+    font-family: gtwalsheim;
+    src: url(fonts/gt-walsheim-bold-web.ttf);
+}
+
+
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: #999;
+}
+#ser{
+    height: 25px;
+    opacity: 0.2;
+    background-color: #232f3e;
+    border:none;
+    color: #FFF;
+    font-size: 20px;
+}
+#header{
+        padding: 10px;
+	margin: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: #232f3e;
+}
+.logo{
+    font-family: gtwalsheim;
+    //position: absolute;
+    //top: 10px;
+    //left: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 25px;
+}
+
+
+.footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 2em;
+	background-color: #000;
+}
+
+@media only screen and (min-width:1000px) {
+    .footer {
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .footer {
+        background-color: #646;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footer {
+        background-color: #FFF;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .footer {
+        background-color: #F51;
+    }
+}
+
